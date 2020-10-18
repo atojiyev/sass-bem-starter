@@ -68,3 +68,12 @@
       @content;
     }
 }
+
+//flex-center display flexda justify-center va align-center bo'ladi
+
+@mixin flex-center() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
